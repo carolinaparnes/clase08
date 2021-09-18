@@ -29,7 +29,14 @@ header {
 
 a {
     color: white;
+    border-color: chartreuse;
+    border-style: dotted;
+    border-width: 10px;
     /*background-color: black !important; Importante recordar que esto puede alterar elementos no deseados*/
+}
+
+a:hover { 
+    background-color:white;
 }
 #iniciar {
     color: white;
