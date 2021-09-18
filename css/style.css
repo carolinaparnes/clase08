@@ -1,0 +1,51 @@
+/* Esto es un comentario
+SELECTOR { 
+    PROPIEDAD : 1234
+    PROPIEDAD : "12JKM445LL"
+}
+
+bgcolor = "lightblue"
+*/
+
+* {
+    font-size: x-large;
+    /*font-size: 2rem;*/
+   /*font-family: fantasy;*/
+  
+}
+
+body {
+    background-color: black;
+}
+footer {
+    background-color: pink;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+}
+#iniciar {
+    color: white;
+}
+.whitebg {
+    background-color: white;
+    color: black;
+}
+
+body > table > tbody > tr > td:nth-child(1) > aside {
+    background-color: black;
+    color: white;
+}
+body > table > tbody > tr > td:nth-child(2) > section > p {
+    background-color: black;
+    color: white;
+}
+ul, h2 {
+    color: white;
+}
+
+.fa-chess-queen{
+    color: red;
+}
