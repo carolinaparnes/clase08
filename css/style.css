@@ -13,18 +13,23 @@ bgcolor = "lightblue"
    /*font-family: fantasy;*/
   
 }
-
+/* Toda la pagina siempre debe tener fondo negro*/
 body {
     background-color: black;
 }
 footer {
-    background-color: pink;
+    background-color: mediumorchid !important;
     color: white;
     font-family: 'Maven Pro', sans-serif;
 }
 header {
     background-color: black;
     color: white;
+}
+
+a {
+    color: white;
+    /*background-color: black !important; Importante recordar que esto puede alterar elementos no deseados*/
 }
 #iniciar {
     color: white;
