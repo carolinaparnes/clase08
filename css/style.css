@@ -21,6 +21,9 @@ footer {
     background-color: mediumorchid !important;
     color: white;
     font-family: 'Maven Pro', sans-serif;
+    position: absolute;
+    bottom: 10%;
+    left: 30px;
 }
 header {
     background-color: black;
